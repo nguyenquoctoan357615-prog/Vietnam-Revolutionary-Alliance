@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hội Liên hiệp Cách mạng lâm thời Việt Nam</title>
+    <link rel="icon" href="assets/vra.svg" type="image/svg+xml" />
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+      }
+
+      body {
+        margin: 0;
+        background: #f7f7f7;
+        color: #0f0f0f;
+      }
+
+      .hero {
+        min-height: 100dvh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url("assets/vra.svg") center / cover no-repeat;
+        padding: 48px 16px;
+      }
+
+      .hero__title {
+        width: 80%;
+        max-width: 1200px;
+        margin: 0;
+        color: #fffbea;
+        font-size: clamp(2rem, 6vw, 4.5rem);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        text-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+      }
+
+      .links {
+        max-width: 1100px;
+        margin: 40px auto 80px;
+        padding: 0 24px;
+        text-align: left;
+      }
+
+      .links__title {
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+
+      .links__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 14px;
+      }
+
+      .links__item {
+        font-size: 1.35rem;
+        font-weight: 500;
+      }
+
+      .links__item a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .links__item a:hover,
+      .links__item a:focus {
+        text-decoration: underline;
+      }
+
+      .branches {
+        max-width: 1100px;
+        margin: 0 auto 80px;
+        padding: 0 24px;
+      }
+
+      .branches__title {
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+
+      .branches__table {
+        width: 100%;
+        border-collapse: collapse;
+        background: #ffffff;
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+      }
+
+      .branches__table th,
+      .branches__table td {
+        border: 1px solid #d9d9d9;
+        padding: 14px 16px;
+        vertical-align: top;
+        text-align: left;
+      }
+
+      .branches__table th {
+        background: #f0f2f7;
+        font-weight: 600;
+      }
+
+      .branch-flag {
+        width: 120px;
+        height: auto;
+        border-radius: 6px;
+        display: block;
+      }
+
+      .branch-link {
+        color: #1a18ff;
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+      .branch-link:hover,
+      .branch-link:focus {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <h1 class="hero__title">Hội Liên hiệp Cách mạng lâm thời Việt Nam</h1>
+    </header>
+
+    <main class="links">
+      <div class="links__title">Dành cho Hội viên:</div>
+      <ul class="links__list">
+        <li class="links__item"><a href="for-members/law.html">Luật</a></li>
+        <li class="links__item"><a href="for-members/advice.html">Khuyên</a></li>
+        <li class="links__item"><a href="for-members/safety-rules.html">Quy tắc an toàn</a></li>
+      </ul>
+    </main>
+
+    <section class="branches">
+      <div class="branches__title">Chi nhánh Hội</div>
+      <table class="branches__table">
+        <thead>
+          <tr>
+            <th>Hội kỳ/Đảng kỳ</th>
+            <th>Tên Hội/Đảng</th>
+            <th>Lãnh tụ</th>
+            <th>Thành lập ngày</th>
+            <th>Gia nhập Hội Liên hiệp ngày</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2"><img src="assets/vfapa-lpp.svg" alt="Hội kỳ Hội Bảo trợ nghệ thuật Việt Nam tự do" class="branch-flag" /></td>
+            <td style="vertical-align: middle;">
+              <a class="branch-link" href="branch/vfapa.html">Hội Bảo trợ nghệ thuật Việt Nam tự do</a>
+            </td>
+            <td rowspan="2" style="vertical-align: middle;">Setraty Lunania</td>
+            <td rowspan="2" style="vertical-align: middle;">1 tháng 2 năm 2026</td>
+            <td style="vertical-align: middle;">1 tháng 2 năm 2026</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: middle;">
+              <a class="branch-link" href="branch/lpp.html">Đảng Đa nguyên tự do</a>
+            </td>
+            <td style="vertical-align: middle;">5 tháng 2 năm 2026</td>
+          </tr>
+          <tr>
+            <td><img src="assets/vfra.svg" alt="Hội kỳ Hội Phục hưng Việt Nam tự do" class="branch-flag" /></td>
+            <td style="vertical-align: middle;"><a class="branch-link" href="branch/vfra.html">Hội Phục hưng Việt Nam tự do</a></td>
+            <td style="vertical-align: middle;">Nam Quốc Toàn</td>
+            <td style="vertical-align: middle;">1 tháng 2 năm 2026</td>
+            <td style="vertical-align: middle;">1 tháng 2 năm 2026</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>
