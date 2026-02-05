@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Hội kỳ nền xanh">
+  <rect width="320" height="200" fill="#4f79d8" />
+
+  <g fill="#c9c9c9" transform="translate(160 100)">
+    <!-- Một tam giác gốc -->
+    <defs>
+      <polygon id="tri" points="0,-70 18,-40 -18,-40" />
+    </defs>
+
+    <!-- Lặp 7 lần, mỗi lần xoay 51.428° -->
+    <use href="#tri" transform="rotate(0)" />
+    <use href="#tri" transform="rotate(51.4286)" />
+    <use href="#tri" transform="rotate(102.8571)" />
+    <use href="#tri" transform="rotate(154.2857)" />
+    <use href="#tri" transform="rotate(205.7143)" />
+    <use href="#tri" transform="rotate(257.1429)" />
+    <use href="#tri" transform="rotate(308.5714)" />
+  </g>
+</svg>

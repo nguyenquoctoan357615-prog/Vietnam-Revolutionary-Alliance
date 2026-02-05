@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Hội kỳ nền tím">
+  <rect width="320" height="200" fill="#a45ab5" />
+
+  <!-- Vòng tròn chia 3:2:5 -->
+  <g transform="translate(160 100)">
+    <!-- Xanh: 180° -->
+    <path d="M0,-70 A70,70 0 1,0 0,70 L0,0 Z" fill="#1220ff"/>
+
+    <!-- Trắng: 72° -->
+    <path d="M0,-70 A70,70 0 0,1 66.574,-21.6311 L0,0 Z" fill="#ffffff"/>
+
+    <!-- Đỏ: 108° -->
+    <path d="M66.574,-21.6311 A70,70 0 0,1 0,70 L0,0 Z" fill="#ff0000"/>
+
+    <!-- Sao 10 cánh -->
+    <g fill="#ffe600">
+      <defs>
+        <polygon id="tri" points="0,-70 16,-20 0,0 -16,-20"/>
+      </defs>
+
+      <use href="#tri" transform="rotate(0)"/>
+      <use href="#tri" transform="rotate(36)"/>
+      <use href="#tri" transform="rotate(72)"/>
+      <use href="#tri" transform="rotate(108)"/>
+      <use href="#tri" transform="rotate(144)"/>
+      <use href="#tri" transform="rotate(180)"/>
+      <use href="#tri" transform="rotate(216)"/>
+      <use href="#tri" transform="rotate(252)"/>
+      <use href="#tri" transform="rotate(288)"/>
+      <use href="#tri" transform="rotate(324)"/>
+    </g>
+  </g>
+</svg>
